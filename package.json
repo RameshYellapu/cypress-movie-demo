@@ -1,0 +1,27 @@
+{
+  "name": "cypress-movie-demo",
+  "version": "1.0.0",
+  "description": "Cypress Example Project to implement 'cypress-movie'",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:movie:mp4": "npx cypress-movie --width 640 --fps 30 --format mp4",
+    "cy:movie:gif": "npx cypress-movie --width 640 --fps 30 --format gif",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:movie:test:gif": "cypress-movie --width 640 --fps 30 --format gif --spec cypress/integration/specs/actions.spec.js",
+    "cy:movie:test:mp4": "cypress-movie --width 640 --fps 30 --format mp4 --spec cypress/integration/specs/actions.spec.js"
+  },
+  "keywords": [
+    "cypress",
+    "cypress-movie"
+  ],
+  "author": "Ramesh Yellapu",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.12.1"
+  },
+  "devDependencies": {
+    "cypress-movie": "^3.0.0"
+  }
+}

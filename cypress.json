@@ -1,0 +1,17 @@
+{
+    "viewportWidth": 1000,
+    "viewportHeight": 660,
+    "videoCompression": false,
+    "nodeVersion": "system",
+    "env": {
+      "cypress-movie": {
+        "enabled": true,
+        "cursorTracking": {
+          "enabled": false,
+          "shape": "dot"
+        },
+        "width": 1920,
+        "height": 1080
+      }
+    }
+  }
