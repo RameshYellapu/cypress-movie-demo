@@ -26,5 +26,6 @@ Seems multiple '.aroow' & '.text' in the same test are not working ... May be sa
     to reproduce the issue:
 - npm run cy:movie:test:mp4
 - npm run cy:movie:test:gif
-issue raised with 'cypress-movie'
+
+issue raised with 'cypress-movie':
 https://github.com/bahmutov/cypress-movie/issues/60
